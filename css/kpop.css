@@ -1,0 +1,68 @@
+nav {
+  text-align: left;
+  position: fixed;
+  width: 50vw;
+  height: 60vh;
+  top: 0px;
+  left: 70vw;
+  padding: 20px;
+  transition: left 0.4s, background-color 0.4s;
+
+}
+
+nav a {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(140, 219, 42);
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: bold;
+  border: 2px black solid;
+  padding: 1%;
+
+}
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: left;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../images/backgroundimg.png");
+}
+
+input {
+  position: absolute;
+  bottom: 285px;
+  left: 450px;
+}
+textarea {
+  position: absolute;
+  bottom: 270px;
+  left: 650px;
+}
+
+button {
+  position: absolute;
+  bottom: 250px;
+  left: 450px;
+}
